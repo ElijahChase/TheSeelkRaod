@@ -1,2 +1,22 @@
 theme: jekyll-theme-tactile
 title: <img src="http://www.thesilkroadbazaar.com/images/logo.png" width="250" height="130">
+
+.loginboxdiv
+{
+ margin:0;
+ height:21px;
+ width:146px;
+ background:url(login_bg.gif) no-repeat bottom;
+}
+
+.loginbox
+{
+ background:none;
+ border:none;
+ width:134px;
+ height:15px;
+ margin:0;
+ padding: 2px 7px 0px 7px;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:11px;
+} 
