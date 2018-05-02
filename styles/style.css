@@ -1,12 +1,20 @@
 <head>
 title: <img src="http://www.thesilkroadbazaar.com/images/logo.png" width="250" height="130">
-<h1>
-   <style>
-
-li a {
-    display: block;
-    width: 60px;
+  <style>
+body
+{
+   font-family: Monospace;
+   
+   
 }
-</h1>
-</style>
+
+div
+{
+       width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+
 </head>
