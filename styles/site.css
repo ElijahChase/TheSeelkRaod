@@ -1,4 +1,8 @@
+<!DOCTYPE html>
+<html>
+
 <head>
+
 title: <img src="http://www.thesilkroadbazaar.com/images/logo.png" width="250" height="130">
   <style>
 body
@@ -12,6 +16,6 @@ body
   background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
-</style>
-
-</head>
+<div class="w3-top">
+Test
+</div>
