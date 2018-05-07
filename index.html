@@ -27,36 +27,108 @@ body, html {height: 100%}
  </div>
 </div>
  
-<table class="w3-table">
-	<tr>
-		<th>Dogs</th>
-	</tr>
-	<tr>
-		<td> Fake ID </td>
-	</tr>
-	<tr>
-		<td> Papers </td>
-	</tr>
-	<tr>
-		<td> Trained Dogs </td>
-	</tr>
-	</table>
-	
-	<div class="card" style="background-color: rgba(200, 200, 200, 0.3" width=1000>
+ <div class="left" style="float:left;
+width: 161px;
+background: gray;">
+ Travel Papers <br> IDs <br> Trained Dogs
+ </div>
+ 
+
+	<div class="card" style="background-color: rgb(255, 201, 152); margin-left:12%" width=1100>
 <div style="display:inline-block;vertical-align:top;">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsq0mLoJKyjs7o08ewQqBf8Ut4PwjtDY9kfK60SfpqL11MsPa-" alt="img"/>
 </div>
 <div style="display:inline-block;">
-    <div style="font-size:120%; display:inline-block" align=center> <br> <br> Highly Trained Dog.<br> It comes with papers too.<br>
+    <div style="font-size:120%; display:inline-block; position: relative;
+    left: 200px;"> <br> <br> Highly Trained Dog.<br> It comes with papers too.<br>
     They will be signed under your name</div>
 </div>
-<button type="button" style="font-size: 30px; border-radius: 200px;   position: absolute;
-    top: 360px;
+
+<!-- popup form -->
+
+<button type="button" onclick="document.getElementById('id01').style.display='block'" style="font-size: 30px; border-radius: 200px;   position: absolute;
+    top: 230px;
     right: 0;
     width: 200px;
     height: 100px;
     border: 3px solid #73AD21; ">Order</button>
 </div>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+<!-- Forms -->
 	
+    <style>
+    
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 700px;
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+    </style>
+    
+  <form class="modal-content animate" action="/action_page.php">
+
+    <div class="container" style="height=500px">
+      Hello There
+    </div>
+  </form>
+</div>
+    <!-- Page Background -->
+    
 <body bgcolor="linen">			
 </html>
