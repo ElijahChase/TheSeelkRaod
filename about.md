@@ -1,0 +1,295 @@
+<html>
+<!-- Font-->
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: DodgerBlue;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+		</style>
+		
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div align="center">
+  Sort By: <select>
+  <option value="Best Selling">Best Selling</option>
+  <option value="Nothing">Selling The Best</option>
+  <option value="Sells Best">Selling Best</option>
+  <option value="Selling The Best">Best at Selling</option>
+</select>
+</div>
+<!--LoginBox-->
+<div align="center" class="button_box2"> <form class="form-wrapper-2 cf"> <input type="text" placeholder="Search here..." required> <button type="submit">Search</button> </form> </div>
+
+ <!---->
+ <div class="left" style="float:left;
+ position: Absolute;
+ left: 7px;
+ width: 150px;
+background: gray;">
+ Travel Papers <br> IDs <br> Trained Dogs
+ </div>
+ 
+
+	<div class="card" style=" border-style: solid ; border-color: #bcccd6 ; background-color: rgb(255, 201, 152); margin-left:12% ; background: linear-gradient(to right, #b1c5d1 , #9aacb7" width=1100>
+<div style="display:inline-block;vertical-align:top;">
+    <img src="http://www.dogsbyandy.com/wp-content/uploads/untitled-for-sale-01.jpg" alt="img" width=184
+    height= 184 style="border-style: solid ; border-color: #bcccd6 ;">
+</div>
+<div style="display:inline-block;">
+    <div style="font-size:120%; display:inline-block; position: relative;
+    left: 200px;"> <br> <br> Highly Trained Dog.<br> It comes with papers too.<br>
+    They will be signed under your name</div>
+</div>
+
+<button type="button" onclick="document.getElementById('id01').style.display='block'" style="font-size: 30px; border-radius: 200px;   position: absolute;
+    top: 230px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #bcccd6; ">Order</button>
+</div>
+
+<br>
+
+	<div class="card" style=" border-style: solid ; border-color: #bcccd6 ; background-color: #9aacb7; margin-left:12% ; background: linear-gradient(to right, #b1c5d1 , #9aacb7" width=1100>
+<div style="display:inline-block;vertical-align:top;">
+    <img src="http://i.dailymail.co.uk/i/pix/2012/03/07/article-2111466-120FFE6C000005DC-255_306x448.jpg" alt="img" width=126 height=184 style="  border-style: solid ; border-color: #bcccd6 ; position: relative
+    left: 100">
+</div>
+<div style="display:inline-block;">
+    <div style="font-size:120%; display:inline-block; position: relative;
+    left: 200px;"> <br> <br> Forged License Papes<br> Buy This if you own a dog<br>
+   They allow Store access</div>
+</div>
+
+<button type="button" onclick="document.getElementById('id02').style.display='block'" style="font-size: 30px; border-radius: 200px;   position: absolute ;
+    top: 413px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #bcccd6; ">Order</button>
+</div>
+<br>
+
+	<div class="card" style="background-color: rgb(255, 201, 152); margin-left:12% ; background: linear-gradient(to right, #b1c5d1 , #9aacb7" width=1100>
+<div style="display:inline-block;vertical-align:top;">
+    <img src="https://i.pinimg.com/originals/bf/b0/85/bfb085c44d04a07be72a23f8a58e8370.jpg" alt="img" width=240 height=180 style="border-style: solid ; border-color: #bcccd6 ;">
+</div>
+<div style="display:inline-block;">
+    <div style="font-size:120%; display:inline-block; position: relative;
+    left: 200px;"> <br> <br> Dog's Travel Papers<br> Use These if you need to travel with the dog.<br>
+    It allows the animal to ride with you.</div>
+</div>
+<button type="button" onclick="document.getElementById('id03').style.display='block'" style="font-size: 30px; border-radius: 200px;   position: absolute ;
+    top: 630px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #bcccd6; ">Order</button>
+</div>
+
+<footer style="width: 100%;
+    background-color: #21343d;
+    color: #f2f5f7;
+    text-align: right;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-color: #bcccd6">
+<br>
+<br>
+<br>
+Links:
+About...
+<br>
+<br>
+</footer>
+
+<!-- popup form -->
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+<!-- Forms -->
+	
+    <style>
+    
+    /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 700px;
+    font-family: "script";
+}
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+    </style>
+    
+  <form class="modal-content animate" action="/action_page.php">
+
+    <div class="container" style="height=500px">
+      <div align=center> Place Holder Text </div>
+      <button type="button" onclick="myFunction()" style="font-size: 30px; border-radius: 200px;   position: absolute;
+    top: 230px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    left: 585px"
+    >Order</button>
+    </div>
+  </form>
+</div>
+
+<!-- id 2 -->
+<div>
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+<form class="modal-content animate" action="/action_page.php">
+
+    <div class="container" style="height=500px">
+      <div align=center> Place Holder Text testing testing </div>
+      <button type="button" onclick="myFunction()" style="font-size: 30px; border-radius: 200px;   position: absolute;
+    top: 230px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    left: 585px"
+    >Order</button>
+    </div>
+  </form>
+  </div>
+
+<!-- id3 -->
+<div>
+<div id="id03" class="modal">
+  <span onclick="document.getElementById('id03').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+<form class="modal-content animate" action="/action_page.php">
+
+    <div class="container" style="height=500px">
+      <div align=center> Place Holder Text testitng testing </div>
+      <button type="button" onclick="myFunction()" style="font-size: 30px; border-radius: 200px;   position: absolute;
+    top: 230px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    left: 585px"
+    >Order</button>
+    </div>
+  </form>
+  <div>
+
+    <!-- Page Background -->
+    
+
+    
+<body bgcolor="#89cfd6" style=" background: linear-gradient(to right, #79a9c6 , #72b2d8 );=">	
+<!-- Functions -->		
+
+<script>
+function myFunction() {
+    alert("This is not a real website to buy things, you should be ashamed you clicked this.");
+}
+</script>
+
+<!--footer-->
+
+</html>
